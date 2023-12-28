@@ -1,0 +1,11 @@
+[navigate] {
+  display: flex;
+  column-gap: 1.5rem;
+  margin-block-start: 1.5rem;
+  text-decoration: none;
+}
+
+[navigate] span {
+  color: #c5c5c4;
+  font-weight: 700;
+}

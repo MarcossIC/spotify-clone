@@ -1,0 +1,32 @@
+.home {
+  display: flex;
+  flex: 1 1;
+  column-gap: 0.5rem;
+  padding-inline: 0.5rem;
+  padding-block-end: 0.5rem;
+  padding-block-start: 0.75rem;
+}
+
+.home-menus {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+  width: 350px;
+}
+
+.home-main {
+  flex: 1 1;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+
+  background: rgb(46, 46, 46);
+  background: linear-gradient(
+    180deg,
+    rgba(46, 46, 46, 1) 0%,
+    rgba(41, 41, 41, 1) 8%,
+    rgba(20, 20, 20, 1) 44%,
+    rgba(18, 18, 18, 1) 58%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2e2e2e",endColorstr="#121212",GradientType=1);
+}

@@ -1,0 +1,123 @@
+.lib-menu {
+  padding-inline: 0 !important;
+  padding-block-start: 0.5rem;
+}
+.lib-menu header {
+  padding-inline: 1.5rem;
+  padding-inline: 1.5rem;
+  margin-block-end: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 1px 1px -2px hsl(220 40% 2% / 13%),
+    0 2px 2px -2px hsl(220 40% 2% / 13%), 0 9px 9px -2px hsl(220 40% 2% / 15%),
+    0 16px 16px -2px hsl(220 40% 2% / 16%);
+  box-sizing: border-box;
+  padding-block-start: 0.65rem;
+  padding-block-end: 1.25rem;
+}
+
+.lib-menu header h2 {
+  color: #c5c5c4;
+  display: flex;
+  column-gap: 0.25rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin: 0px;
+}
+
+.lib-menu header h2:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.lib-menu header h2:hover svg {
+  fill: #fff;
+}
+
+.lib-menu header span {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #c5c5c4;
+}
+
+.lib-menu header span:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.lib-menu main {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  max-height: 75px;
+  padding-inline: 0.5rem;
+}
+
+.lib-section {
+  background-color: #242424;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  border-radius: 0.5rem;
+  height: min-content;
+  row-gap: 0.5rem;
+  box-sizing: border-box;
+}
+
+.lib-section h3 {
+  text-align: left;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  word-spacing: 1px;
+  margin: 0;
+}
+.lib-section p {
+  color: #fff;
+  font-size: 0.85rem;
+  text-align: left;
+  margin: 0px;
+  padding-block-end: 0.75rem;
+}
+.lib-section button {
+  text-align: center;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+}
+.lib-menu footer {
+  margin-block-start: 2rem;
+  padding-inline-start: 1rem;
+  padding-inline-end: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.85rem;
+  row-gap: 0.7em;
+  margin-block-end: 0.5rem;
+}
+
+.tag {
+  color: #c5c5c4;
+  font-size: 0.66rem;
+  letter-spacing: 0.1px;
+  text-rendering: optimizeLegibility;
+  text-decoration: none;
+}

@@ -1,0 +1,55 @@
+aside div {
+  display: flex;
+  padding-block-start: 0.5rem;
+}
+
+img {
+  position: relative;
+  cursor: pointer;
+  left: -3px;
+}
+
+[navigate] path {
+  stroke-width: 2px;
+  width: 3rem;
+}
+
+[navigate] span {
+  user-select: none;
+}
+
+[navigate] path,
+[navigate] span {
+  stroke: #c5c5c4;
+  color: #c5c5c4;
+}
+[navigate] ellipse {
+  display: none;
+  fill: transparent;
+  transition-property: fill, transform;
+  transition: 0.2s;
+  transition-timing-function: ease-out;
+}
+[navigate]:not(.active):hover ellipse {
+  display: block;
+  fill: #fff;
+  transform: translate(1px, 1.1px);
+}
+
+[navigate]:not(.active):hover path,
+[navigate]:not(.active):hover span {
+  stroke: #fff;
+  color: #fff;
+}
+[navigate]:hover {
+  cursor: pointer;
+}
+
+[navigate].active path,
+[navigate].active ellipse,
+[navigate].active span {
+  display: block;
+  fill: #fff;
+  stroke: #fff;
+  color: #fff;
+}

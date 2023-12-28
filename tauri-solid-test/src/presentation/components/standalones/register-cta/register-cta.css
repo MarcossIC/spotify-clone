@@ -1,0 +1,59 @@
+.register-cta {
+  justify-self: flex-end;
+  align-self: center;
+  max-height: 75px;
+  max-width: 96%;
+  margin-block-end: 0.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1;
+  width: 100%;
+  border-radius: 1px;
+  padding-block: 0.75rem;
+  margin-inline: 0.5rem;
+  padding-inline: 1rem;
+
+  background: rgb(174, 41, 151);
+  background: -moz-linear-gradient(
+    117deg,
+    rgba(174, 41, 151, 1) 23%,
+    rgba(128, 96, 196, 1) 62%,
+    rgba(81, 153, 244, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    117deg,
+    rgba(174, 41, 151, 1) 23%,
+    rgba(128, 96, 196, 1) 62%,
+    rgba(81, 153, 244, 1) 100%
+  );
+  background: linear-gradient(
+    117deg,
+    rgba(174, 41, 151, 1) 23%,
+    rgba(128, 96, 196, 1) 62%,
+    rgba(81, 153, 244, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ae2997",endColorstr="#5199f4",GradientType=1);
+}
+
+.register-cta section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  text-align: left;
+}
+
+.register-cta section h3 {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.register-cta section p {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin: 0;
+}
