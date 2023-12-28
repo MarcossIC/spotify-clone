@@ -3,7 +3,7 @@ aside div {
   padding-block-start: 0.5rem;
 }
 
-img {
+[menu-card] .menu-img-container img {
   position: relative;
   cursor: pointer;
   left: -3px;

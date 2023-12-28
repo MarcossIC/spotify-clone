@@ -1,5 +1,6 @@
 import { HomeMenu, LibMenu } from "../../components";
 import "./home.css";
+import  HomeMain from "./components/home-main";
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
       </section>
 
       <section class="home-main">
-        <p>Test</p>
+        <HomeMain />
       </section>
     </main>
   );

@@ -1,3 +1,6 @@
+import { createSignal, createEffect } from "solid-js";
+import "./play-list.css";
+
 const PlayListCard = (props) => {
   const [imageSrc, setImageSrc] = createSignal("");
 
@@ -9,14 +12,14 @@ const PlayListCard = (props) => {
     const url = URL.createObjectURL(data);
     setImageSrc(url);
   };
-  createEffect(() => loadImageSrc());
+  loadImageSrc();
 
   return (
     <article class="play-list-card">
       <header>
         <img
           loading="eager"
-          src={imageSrc()}
+          src="https://wpimg.pixelied.com/blog/wp-content/uploads/2021/06/15134504/Spotify-Cover-Art-with-Text-Aligned-480x480.png"
           alt="play list cover image"
           itemProp="image"
           role="img"

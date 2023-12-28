@@ -3,7 +3,9 @@ import { DefaultButton } from "../../";
 import { createSignal } from "solid-js";
 
 const RegisterCta = () => {
-  const [getStyles, setSyles] = createSignal("");
+  const [getStyles, setSyles] = createSignal(
+    "padding-block: 1rem; padding-inline: 2.05rem;"
+  );
 
   return (
     <aside class="register-cta">
@@ -14,7 +16,11 @@ const RegisterCta = () => {
           anuncios ocacionales. No hace falta tarjeta de credito.
         </p>
       </section>
-      <DefaultButton text="" isFilled={true} extraStyles={getStyles()} />
+      <DefaultButton
+        text="Registrate gratis"
+        isFilled={true}
+        extraStyles={getStyles()}
+      />
     </aside>
   );
 };

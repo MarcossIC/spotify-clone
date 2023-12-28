@@ -1,18 +1,22 @@
 .default-button {
-  border-radius: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 1.5rem;
   background-color: transparent;
   color: #d6d6d6e7;
   font-weight: 700;
   cursor: pointer;
   padding-block: 0.5rem;
   padding-inline: 0.5rem;
+  width: fit-content;
+  height: fit-content;
   transition-property: color, scale;
   transition-duration: 0.1s;
   transition-timing-function: ease;
 }
 
 .default-button:hover {
-  scale: 1.05;
+  scale: 1.03;
   color: #fff;
 }
 
@@ -22,5 +26,5 @@
 }
 
 .default-button.filled:hover {
-    color: #000;
+  color: #000;
 }

@@ -1,4 +1,23 @@
 .home-main-header {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   background-color: #111111;
+  padding-block: 0.5em;
+  align-items: center;
+  border-top-left-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
+}
+
+.navigation {
+  display: flex;
+}
+.buttons {
+  margin-inline-end: 1.5rem;
+}
+.home-main-content {
+  padding-inline: 1.25rem;
+  padding-block: 0.05rem;
+  display: flex;
+  flex-direction: column;
 }

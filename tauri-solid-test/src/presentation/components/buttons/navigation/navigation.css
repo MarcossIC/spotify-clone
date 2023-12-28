@@ -1,0 +1,27 @@
+[navigation] {
+  outline: none;
+  border: none;
+  background-color: #080808;
+  color: #fff;
+  aspect-ratio: 1/1;
+  clip-path: circle(35%);
+  border-radius: 100%;
+  width: 50px;
+  font-size: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.text-btn {
+  padding-block-end: 6px;
+  padding-inline-end: 1px;
+  line-height: 0;
+}
+
+[navigation]:disabled {
+  cursor: not-allowed;
+  color: #e9e9e9e0;
+  background-color: #080808cc;
+}

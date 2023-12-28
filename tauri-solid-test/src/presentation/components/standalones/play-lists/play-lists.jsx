@@ -5,7 +5,7 @@ const PlayLists = (props) => {
     <section class="play-lists">
       <h2>{props.title}</h2>
 
-      <div class="content">{props.children}</div>
+      <div class="content">{props.children()}</div>
     </section>
   );
 };

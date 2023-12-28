@@ -4,7 +4,7 @@ import "./home-menu.css";
 const HomeMenu = () => {
   return (
     <aside menu-card>
-      <div>
+      <div class="menu-img-container">
         <img
           src="/spoty.svg"
           itemProp="image"
